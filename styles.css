@@ -1,0 +1,80 @@
+
+
+body, a {
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    padding:1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    height: 20rem;
+    width: 50rem;
+    margin: auto;
+    background-color:hsla(100, 100%, 100%, 0.5);
+    border-radius: 1rem;
+}
+
+/* social icons */ /*footer*/
+.fa {
+    color: black;
+}
+
+.spotify:hover{
+    fill: #1DB954;
+    color: #1DB954;
+}
+
+.twitter:hover {
+    fill: #1DA1F2;
+    color: #1DA1F2;
+}
+
+.insta:hover {
+    fill: #C13584;
+    color: #C13584;
+}
+
+.discord:hover{
+    fill: #7289DA;
+    color: #7289DA;
+}
+
+
+.github:hover {
+    fill:#833AB4;
+    color: #833AB4;
+}
+
+.linked:hover {
+    fill: #0A66C2;
+    color: #0A66C2;
+}
+
+.socials  {
+    width:50rem ;
+    display: flex;
+    justify-content: space-between;
+    padding:0.7rem;
+    vertical-align: middle; 
+    margin: auto;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color:hsla(100, 100%, 100%, 0.5);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30rem;
+    margin: auto;
+}
+
+.text-centered {
+    text-align: center;
+    padding-top: 15rem;
+}
