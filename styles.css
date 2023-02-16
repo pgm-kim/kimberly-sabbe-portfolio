@@ -11,8 +11,17 @@ body, a {
 h1 {
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 10px;
     /* color: #AF9A73; */
 }
+
+/* .line {
+    width: 40%;
+    height: 0.5rem;
+    background-color: #AF9A73;
+    margin-bottom: 1rem
+} */
+
 
 h2 {
     font-size: 2.5rem;
