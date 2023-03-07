@@ -1,0 +1,367 @@
+body {
+    font-family: "roboto", sans-serif;
+    color: #F5f5f5 ;
+    font-size: 0.8rem;
+    background-color: #733115;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "roboto";
+     color: white; 
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: medium;
+     color: black; 
+     margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 42rem) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+header {
+    display: none;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 28rem;
+    margin-bottom: 8rem;
+}
+
+.menu > li > a {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+}
+
+.menu > li :hover {
+    border: 1px solid black;
+
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    header {
+        display: block;
+    }
+}
+
+.intro {
+    background-image: url(./kiki-8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    padding: 4rem 2rem;
+}
+
+@media (min-width: 42rem) {
+
+    .intro {
+        padding: 8rem 4rem ;
+    }
+    
+}
+
+footer {
+    background-color: black;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    footer {
+        padding: 1.3rem 25rem;
+        font-size: 1.2rem;
+    }
+}
+    
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.contact > ul {
+    width: 50%;
+}
+
+li {
+    padding: 0.4rem;
+}
+
+.socials {
+    text-align: end;
+    border-right: 2px solid black;
+}
+
+
+section {
+    background-color: #733115;
+    padding: 2rem;
+}
+
+.social-item {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 5rem;
+    border: 2px solid white;
+}
+
+
+
+.project-img {
+    width: 35rem;
+
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2rem 0rem;
+    font-family: "roboto";
+     color: white; 
+}
+
+
+.project {
+    /* background: rgba(0, 0, 0, 0.600);
+    border-radius: 0.5em;
+    padding: 4rem;
+    max-width: 75rem; */
+    padding: 1rem;
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.project > div {
+    width: 45%;
+
+}
+
+
+/* .keyword {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    width: auto;
+
+} */
+
+.keyword {
+    border: black 1.5px solid;
+    /* background: black; */
+    color: black;
+    padding: 0.5rem;
+    max-width: 6rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.keyword-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 25rem;
+    margin: 2rem -0.5rem;
+
+}
+
+
+
+
+
+
+
+ @media (min-width: 1200px)
+    { 
+    
+   .intro {
+    background-image: url(./kiki-8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 82vh;    
+    padding: 4rem;
+
+    }
+
+    section {
+        padding : 4rem;
+        max-width: 90rem;
+        min-height: 30rem;
+        margin: auto;
+    }
+
+    }
+
+@media (min-width: 1200px) {
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75rem;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    
+    .contact > ul {
+        width: 50%;
+        padding: 1rem 3rem;
+    }
+    
+    li {
+        padding: 0.8rem;
+    }
+    
+    .socials {
+        text-align: end;
+        border-right: 2px solid black;
+    }
+    
+}
+
+
+ /*
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 28rem;
+    margin-bottom: 8rem;
+}
+
+.menu > li > a {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+}
+
+.menu > li :hover {
+    border: 1px solid black;
+
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 1.5rem;
+    color: #F5f5f5 ;
+    background-color: #F8F7F3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "roboto";
+     color: white; 
+}
+
+.intro-content {
+    width: 55%;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: medium;
+     color: black; 
+     margin-bottom: 2rem;
+}
+
+section {
+    background-color: #733115;
+    padding: 4rem;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.contact > ul {
+    width: 50%;
+    padding: 1rem 3rem;
+}
+
+li {
+    padding: 0.8rem;
+}
+
+.socials {
+    text-align: end;
+    border-right: 2px solid black;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 1.2rem 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    }   */
