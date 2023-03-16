@@ -3,7 +3,7 @@ body {
     color: #F5f5f5 ;
     font-size: 0.8rem;
     background-color: #733115;
-    
+    margin: auto;
 }
 
 html {
@@ -34,9 +34,21 @@ h2 {
      margin-bottom: 2rem;
 }
 
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "roboto";
+     color: white; 
+     padding: 1rem 0rem;
+}
+
 
 
 @media (min-width: 42rem) {
+
+    body {
+        font-size: 1.2rem;
+    }
 
     h1 {
         font-size: 2rem;
@@ -44,6 +56,10 @@ h2 {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 }
 
@@ -85,6 +101,11 @@ header {
 
     header {
         display: block;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        padding: 2rem 0rem;
     }
 }
 
@@ -158,18 +179,12 @@ section {
 
 
 .project-img {
-    width: 35rem;
+    /* width: 100%; */
+    max-width: 35rem; 
+    max-height: 28rem;
+    margin: 0 auto;
 
 }
-
-h3 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding: 2rem 0rem;
-    font-family: "roboto";
-     color: white; 
-}
-
 
 .project {
     /* background: rgba(0, 0, 0, 0.600);
@@ -177,23 +192,11 @@ h3 {
     padding: 4rem;
     max-width: 75rem; */
     padding: 1rem;
-    display: flex; 
-    justify-content: space-evenly; 
 }
 
 .project > div {
-    width: 45%;
-
+    width: 50vw;
 }
-
-
-/* .keyword {
-    background: black;
-    color: white;
-    padding: 0.5rem;
-    width: auto;
-
-} */
 
 .keyword {
     border: black 1.5px solid;
@@ -203,7 +206,7 @@ h3 {
     max-width: 6rem;
     margin: 0.5rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 12.5px;
 
 }
 
@@ -211,15 +214,94 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    width: 25rem;
+    width: 20rem;
     margin: 2rem -0.5rem;
+
+}
+
+@media screen and (min-width: 42rem) {
+
+    .project {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .project > div  { 
+        width: 45%;
+    }
+
+    .project-img {
+        /* width: 100%; */
+        max-width: 35rem; 
+        max-height: 28rem;
+        margin: 0 auto;
+        padding: 0rem 4rem;
+    
+    }
+
+    .keyword {
+        border: black 1.5px solid;
+        /* background: black; */
+        color: black;
+        padding: 0.5rem;
+        max-width: 6rem;
+        margin: 0.5rem;
+        text-align: center;
+        font-size: 1.2rem;
+    
+    }
+    
+    .keyword-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 25rem;
+        margin: 2rem -0.5rem;
+    
+    }
+
+}
+
+.GTT {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .GTT {
+    display: block;
+    color: black;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    margin: 2rem;
+    position: fixed;
+    right: 0rem;
+    bottom: -1.2rem;
+    opacity: 0;
+    cursor: pointer;
+}
+
+  .GTT:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .GTT-ON{
+    opacity: 1;
+  }
 
 }
 
 
 
+/* .keyword {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    width: auto;
 
-
+} */
 
 
  @media (min-width: 1200px)
