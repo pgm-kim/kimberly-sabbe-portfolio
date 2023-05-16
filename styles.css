@@ -1,7 +1,7 @@
 
 
 body, a {
-    font-family: "open sans", sans-serif;
+    font-family: "roboto";
     font-size: large;
     text-decoration: none;
     color: black;
@@ -10,9 +10,9 @@ body, a {
 
 h1 {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: bold;
     margin-bottom: 10px;
-    font-family: "roboto", sans-serif;
+    font-family: "roboto";
     /* color: #AF9A73; */
 }
 

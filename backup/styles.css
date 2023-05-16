@@ -101,6 +101,7 @@ header {
 
     header {
         display: block;
+        padding-top: 4rem;
     }
 
     h3 {
@@ -111,7 +112,7 @@ header {
 
 .intro {
     background-image: url(./kiki-8);
-    background-size: cover;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;    
     padding: 4rem 2rem;
@@ -153,6 +154,7 @@ footer {
 .contact > ul {
     width: 50%;
 }
+
 
 li {
     padding: 0.4rem;
@@ -309,11 +311,11 @@ section {
     
    .intro {
     background-image: url(./kiki-8);
-    background-size: cover;
-    background-position: center;
+    background-size: 75%;
+    background-position: right;
     background-repeat: no-repeat;
-    height: 82vh;    
-    padding: 4rem;
+    height: 50vh;    
+    padding: 2rem;
 
     }
 
